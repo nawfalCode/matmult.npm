@@ -1,7 +1,7 @@
 {
-  "name": "matmult.npm",
+  "name": "matmult",
   "version": "1.0.0",
-  "description": "Matrices Multiplication Package",
+  "description": "Matrix Multiplication Package",
   "main": "matmult.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,9 +11,10 @@
     "url": "https://github.com/nawfalCode/matmult.npm.git"
   },
   "keywords": [
-    "Matrices",
+    "Matrix",
     "Multiplication",
-    "Package"
+    "Package",
+      "Products"
   ],
   "author": "Nawfal Mahdi",
   "license": "MIT",

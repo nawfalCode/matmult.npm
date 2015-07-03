@@ -1,7 +1,7 @@
 /**
- * [[Description]]
- * @param {[[Type]]} a [[Description]]
- * @param {[[Type]]} b [[Description]]
+ * Main Function
+ * @param {Object} a can be a matrix,a vector, a number
+ * @param {Object} b can be a matrix, a vector, a number
  */
 function matrixMultiply(a, b, vMode) {
     if ((a.constructor === Array) && (b.constructor === Array)) { // Both of them are arrays
@@ -15,7 +15,7 @@ function matrixMultiply(a, b, vMode) {
             if (b[0].length > 0) { //b is 2d
                 return ('Undefined');
             } else {
-                return ((vMode === undefined) ? 'Mode is required' : multiply1dx1d(a, b, vMode));
+                return ((vMode === undefined) ? 'Mode is Required' : multiply1dx1d(a, b, vMode));
             }
         }
     } else { // one of them is not an array
@@ -70,7 +70,7 @@ function multiply1dx1d(a, b, vMode) {
         return (multiplycr(a, b));
     } else {
 
-        return ('unknow vector mode');
+        return ('Unknow Vector Mode');
     }
 }
 
@@ -119,7 +119,7 @@ function multiply2dx2d(a, b) {
     if (a[0].length !== b.length) {
         return ({
             result: undefined,
-            msg: 'Matrices Sizes issues'
+            msg: 'Matrix Size issue'
         }); // check if both arrays have the save size
     } else {
         var c = [];
