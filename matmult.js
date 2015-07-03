@@ -24,6 +24,6 @@ console.log(repository.matrixMultiply([
     [7, 8]
 ]));
 */
-//console.log(repository.matrixMultiply([1,2],[3,4],'cr'));
+console.log(repository.matrixMultiply([1,2],[3,4],'cr'));
 console.log(repository.matrixMultiply(3,[1,2],'cr'));
 //console.log(repository.factorial(5));
